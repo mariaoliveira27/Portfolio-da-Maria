@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { supabase } from "../lib/supabase";
 import emailjs from "emailjs-com";
+import PropTypes from "prop-types";
 
 const LivroVisitas = ({ lang }) => {
 
@@ -57,7 +58,7 @@ const LivroVisitas = ({ lang }) => {
     // notificação Email 
     const serviceID = 'service_frajb9d';
     const templateID = 'template_qk7e1sg';
-    const publicKey = '9EbzCaeAM6iAyqmH4';
+    const publicKey = 'dSq81v_BEeSIjeKfx';
 
     emailjs.send(
       serviceID,
@@ -154,6 +155,10 @@ const LivroVisitas = ({ lang }) => {
 
     </section>
   );
+};
+
+LivroVisitas.propTypes = {
+  lang: PropTypes.string.isRequired,
 };
 
 export default LivroVisitas;
