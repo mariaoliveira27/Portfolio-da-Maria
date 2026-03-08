@@ -18,7 +18,7 @@ function About({ lang }) {
   const defaultLayoutPluginInstance = defaultLayoutPlugin()
 
   // Usa o mesmo arquivo de currículo para ambos os idiomas
-  const fileUrl = `/cv-pt.pdf`
+  const fileUrl = lang === 'pt' ? '/cv-pt.pdf' : '/cv-en.pdf'
 
   const handleDocumentLoad = () => {
     setIsLoaded(true)
