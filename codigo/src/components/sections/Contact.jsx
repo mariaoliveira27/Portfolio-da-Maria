@@ -39,9 +39,9 @@ function Contact({ lang }) {
 
     setEmailError('');
 
-    const serviceID = 'service_hj8348s';
-    const templateID = 'template_g4mwunn';
-    const publicKey = '9EbzCaeAM6iAyqmH4';
+    const serviceID = 'service_frajb9d';
+    const templateID = 'template_qk7e1sg';
+    const publicKey = 'dSq81v_BEeSIjeKfx';
 
     emailjs.sendForm(serviceID, templateID, form.current, publicKey)
       .then((result) => {

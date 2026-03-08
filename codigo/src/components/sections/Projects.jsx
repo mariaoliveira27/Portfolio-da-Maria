@@ -1,17 +1,17 @@
 import { useState } from "react"
-import project1 from "../../assets/images/project1.png"
-import project2 from "../../assets/images/project2.png"
+import Ti3 from "../../assets/images/Ti3.gif"
+import portfolio from "../../assets/images/portfolio.gif"
 
 function Projects({ lang }) {
   const projects = [
     {
-      title: lang === 'pt' ? "Jogo Simon" : "Simon Game",
+      title: lang === 'pt' ? "Martin Psicólogo" : "Martin Psychologist",
       description:
         lang === 'pt'
-          ? "Jogo da memória interativo construído com JavaScript."
-          : "Interactive memory game built with JavaScript.",
-      image: project1,
-      tech: ["HTML5", "CSS3", "JavaScript", "ReactJS"]
+          ? "Plataforma de de gestão de pacientes para psicólogo, construída com Java e Spring Boot."
+          : "Patient management platform for psychologists, built with Java and Spring Boot.",
+      image: Ti3,
+      tech: ["HTML5", "CSS3", "JavaScript", "Java", "Spring Boot"]
     },
     {
       title: lang === 'pt' ? "Portfólio Pessoal" : "Portfolio Website",
@@ -19,7 +19,7 @@ function Projects({ lang }) {
         lang === 'pt'
           ? "Website de portfólio pessoal responsivo."
           : "Personal responsive portfolio website.",
-      image: project2,
+      image: portfolio,
       tech: ["ReactJS", "CSS3"]
     }
   ]

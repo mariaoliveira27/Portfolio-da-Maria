@@ -3,12 +3,14 @@ import laptop from "../../assets/images/laptop.png";
 
 // Fallback caso a API do GitHub não retorne dados
 const FALLBACK_SKILLS = [
-  { name: 'JavaScript', percent: 30 },
-  { name: 'TypeScript', percent: 15 },
-  { name: 'React', percent: 20 },
-  { name: 'HTML', percent: 15 },
-  { name: 'CSS', percent: 15 },
-  { name: 'Git', percent: 5 },
+  { name: 'HTML', percent: 33 },
+  { name: 'Java', percent: 28 },
+  { name: 'C', percent: 14 },
+  { name: 'Swift', percent: 10 },
+  { name: 'JavaScript', percent: 8 },
+  { name: 'CSS', percent: 6 },
+  { name: 'C++', percent: 1 },
+  { name: 'Python', percent: 1 },
 ];
 
 function Skills({ lang }) {

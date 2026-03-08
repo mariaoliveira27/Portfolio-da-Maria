@@ -6,7 +6,7 @@ const LivroVisitas = ({ lang }) => {
 
   // TEXTOS 
   const title = lang === 'pt' ? 'Livro de Visitas' : 'Guestbook';
-  const text = lang === 'pt' ? 'Deixe uma mensagem para mim!' : 'Leave a message for me!';
+  const text = lang === 'pt' ? 'Se passar por aqui deixe uma mensagem!' : 'If you stop by, leave a message!';
   const placeholderName = lang === 'pt' ? 'Nome' : 'Name';
   const placeholderMessage = lang === 'pt' ? 'Mensagem' : 'Message';
   const buttonLabel = lang === 'pt' ? 'Enviar' : 'Send';
@@ -55,8 +55,8 @@ const LivroVisitas = ({ lang }) => {
     }
 
     // notificação Email 
-    const serviceID = 'service_hj8348s';
-    const templateID = 'template_g4mwunn';
+    const serviceID = 'service_frajb9d';
+    const templateID = 'template_qk7e1sg';
     const publicKey = '9EbzCaeAM6iAyqmH4';
 
     emailjs.send(

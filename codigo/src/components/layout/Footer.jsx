@@ -10,25 +10,25 @@ function Footer({ lang }) {
     <footer className="footer">
 
       <div className="footer-socials">
-            <a href="https://github.com/SEU_USUARIO" 
+            <a href="https://github.com/mariaoliveira27" 
                target="_blank" 
                rel="noopener noreferrer"
                className="w-12 h-12 bg-deep-purple rounded-full flex items-center justify-center hover:bg-purple-800 hover:-translate-y-1 transition-all duration-300 shadow-lg cursor-pointer">
                <FaGithub size={35} color="#E0BBE4" /> {/* Cor lavanda para contrastar */}
             </a>
-            <a href="https://linkedin.com/in/SEU_USUARIO" 
+            <a href="https://www.linkedin.com/in/maria-clara-gomes-01b64b16a/" 
                target="_blank" 
                rel="noopener noreferrer"
                className="w-12 h-12 bg-deep-purple rounded-full flex items-center justify-center hover:bg-purple-800 hover:-translate-y-1 transition-all duration-300 shadow-lg cursor-pointer">
                <FaLinkedin size={35} color="#E0BBE4" />
             </a>
-            <a href="https://instagram.com/SEU_USUARIO" 
+            <a href="https://instagram.com/_mariaclara.png" 
                target="_blank" 
                rel="noopener noreferrer"
                className="w-12 h-12 bg-deep-purple rounded-full flex items-center justify-center hover:bg-purple-800 hover:-translate-y-1 transition-all duration-300 shadow-lg cursor-pointer">
                <FaInstagram size={35} color="#E0BBE4" />
             </a>
-            <a href="mailto:seuemail@exemplo.com" 
+            <a href="mailto:mariaclariagomes@gmail.com" 
                className="w-12 h-12 bg-deep-purple rounded-full flex items-center justify-center hover:bg-purple-800 hover:-translate-y-1 transition-all duration-300 shadow-lg cursor-pointer">
                <FaEnvelope size={30} color="#E0BBE4" />
             </a>

@@ -65,13 +65,13 @@ section[id] {
   width: 350px;
   border-radius: 24px; /* Arredonda os cantos da imagem (use 50% se quiser um círculo perfeito) */
   box-shadow: 0 10px 30px rgba(122, 44, 143, 0.15); /* Adiciona uma sombra suave usando o seu tom de roxo */
-  transform: rotate(-3deg);
+  transform: none;
   transition: transform 0.3s ease; /* Prepara a imagem para uma animação suave */
 }
 
 /* Efeito interativo quando passar o mouse na foto */
 .about-image img:hover {
-  transform: rotate(0deg) scale(1.02); 
+  transform: none; 
 }
 
 .about-content {
@@ -278,7 +278,7 @@ section[id] {
   height: 280px;
   object-fit: contain;
   display: block;
-  transform: rotate(-3deg);
+  transform: none; /* Remove diagonal rotation */
   transition: 0.5s ease;
 }
 
