@@ -176,7 +176,7 @@ O deploy do **Portifólio das Meninas** foi realizado na plataforma **Vercel**, 
 ### 🌐 Link de Acesso
 O sistema final, hospedado e funcional, pode ser acessado através do link abaixo:
 
-👉 **[portfolio-das-meninas.vercel.app](https://portfolio-das-meninas.vercel.app)**
+👉 **[portfolio-da-maria-clara.vercel.app](https://portfolio-da-maria-clara.vercel.app/)**
 
 ### ⚙️ Configurações de Produção
 * **Plataforma:** Vercel.
