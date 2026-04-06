@@ -3,7 +3,7 @@ import { Worker, Viewer } from "@react-pdf-viewer/core";
 import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
-import profile from "../../assets/images/profile.png";
+import profile from "../../assets/images/profilefoto.jpeg";
 
 function About({ lang }) {
   const title = lang === 'pt' ? 'Sobre mim' : 'About Me'
