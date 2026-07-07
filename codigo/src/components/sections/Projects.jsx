@@ -21,6 +21,15 @@ function Projects({ lang }) {
           : "Personal responsive portfolio website.",
       image: portfolio,
       tech: ["ReactJS", "CSS3"]
+    },
+     {
+      title: lang === 'pt' ? "Projeto NATA" : "NATA Project",
+      description:
+        lang === 'pt'
+          ? "Website do projeto NATA."
+          : "Website for the NATA project.",
+      image: NataProjeto,
+      tech: ["HTML5", "CSS3", "JavaScript"]
     }
   ]
 
