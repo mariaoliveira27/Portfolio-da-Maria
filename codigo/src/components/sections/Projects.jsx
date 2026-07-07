@@ -25,15 +25,15 @@ function Projects({ lang }) {
       image: portfolio,
       tech: ["ReactJS", "CSS3"]
     },
-     {
-      title: lang === 'pt' ? "Projeto NATA" : "NATA Project",
-      description:
-        lang === 'pt'
-          ? "Website do projeto NATA."
-          : "Website for the NATA project.",
-      image: NataProjeto,
-      tech: ["HTML5", "CSS3", "JavaScript"]
-    }
+    {
+  title: lang === 'pt' ? "Projeto NATA" : "NATA Project",
+  description:
+    lang === 'pt'
+      ? <>Website do projeto NATA.<br />Link: https://grupo-nata.vercel.app/</>
+      : <>Website for the NATA project.<br />Link: https://grupo-nata.vercel.app/</>,
+  image: NataProjeto,
+  tech: ["HTML5", "CSS3", "JavaScript"]
+}
   ]
 
   const [index, setIndex] = useState(0)
