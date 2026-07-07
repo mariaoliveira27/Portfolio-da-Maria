@@ -4,6 +4,7 @@ import portfolio from "../../assets/images/portfolio.gif"
 import NataProjeto from "../../assets/images/NataProjeto.gif"
 
 
+
 function Projects({ lang }) {
   const projects = [
     {
