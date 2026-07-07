@@ -29,8 +29,8 @@ function Projects({ lang }) {
   title: lang === 'pt' ? "Projeto NATA" : "NATA Project",
   description:
     lang === 'pt'
-      ? <>Website do projeto NATA.<br />Link: https://grupo-nata.vercel.app/</>
-      : <>Website for the NATA project.<br />Link: https://grupo-nata.vercel.app/</>,
+      ? <>Website do projeto NATA.<br />Link: <a href="https://grupo-nata.vercel.app/" target="_blank" rel="noopener noreferrer">Ver projeto</a></>
+      : <>Website for the NATA project.<br />Link: <a href="https://grupo-nata.vercel.app/" target="_blank" rel="noopener noreferrer">View project</a></>,
   image: NataProjeto,
   tech: ["HTML5", "CSS3", "JavaScript"]
 }
